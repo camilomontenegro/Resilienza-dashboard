@@ -8,15 +8,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        resilienza: {
-          primary: '#C65D47',
-          secondary: '#E8A87C',
-          accent: '#F4D1AE',
-          warm: '#D4B886',
-        }
-      },
-      fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif'],
+        'resilienza-primary': '#C65D47',
+        'resilienza-secondary': '#E8A87C',
+        'resilienza-accent': '#F4D1AE',
+        'resilienza-warm': '#D4B886',
       },
     },
   },

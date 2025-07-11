@@ -43,7 +43,7 @@ const OverviewTab = () => {
       {/* Charts Row */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         {/* Revenue Chart */}
-        <div className="card p-6">
+        <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-all duration-300">
           <h3 className="text-lg font-semibold text-gray-900 mb-4">Revenue Trends</h3>
           <ResponsiveContainer width="100%" height={300}>
             <AreaChart data={revenueData}>
@@ -64,7 +64,7 @@ const OverviewTab = () => {
         </div>
 
         {/* Guest Satisfaction */}
-        <div className="card p-6">
+        <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-all duration-300">
           <h3 className="text-lg font-semibold text-gray-900 mb-4">Guest Satisfaction</h3>
           <ResponsiveContainer width="100%" height={300}>
             <LineChart data={satisfactionData}>
@@ -86,30 +86,30 @@ const OverviewTab = () => {
 
       {/* Quick Insights */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        <div className="card p-6">
+        <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-all duration-300">
           <h4 className="font-semibold text-gray-900 mb-3">Peak Season Performance</h4>
           <p className="text-gray-600 text-sm mb-2">July recorded the highest revenue of €42,100 with 26 bookings.</p>
           <div className="flex items-center justify-between">
             <span className="text-sm text-gray-500">Occupancy Rate</span>
-            <span className="font-medium text-resilienza-primary">85%</span>
+            <span className="font-medium" style={{ color: '#C65D47' }}>85%</span>
           </div>
         </div>
 
-        <div className="card p-6">
+        <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-all duration-300">
           <h4 className="font-semibold text-gray-900 mb-3">Guest Feedback</h4>
           <p className="text-gray-600 text-sm mb-2">Consistent 4.5+ rating throughout the year with excellent reviews.</p>
           <div className="flex items-center justify-between">
             <span className="text-sm text-gray-500">Total Reviews</span>
-            <span className="font-medium text-resilienza-primary">348</span>
+            <span className="font-medium" style={{ color: '#C65D47' }}>348</span>
           </div>
         </div>
 
-        <div className="card p-6">
+        <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-all duration-300">
           <h4 className="font-semibold text-gray-900 mb-3">Booking Trends</h4>
           <p className="text-gray-600 text-sm mb-2">Strong growth in repeat customers and advance bookings.</p>
           <div className="flex items-center justify-between">
             <span className="text-sm text-gray-500">Repeat Rate</span>
-            <span className="font-medium text-resilienza-primary">32%</span>
+            <span className="font-medium" style={{ color: '#C65D47' }}>32%</span>
           </div>
         </div>
       </div>
