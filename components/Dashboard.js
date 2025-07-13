@@ -41,7 +41,7 @@ const Dashboard = () => {
       <Sidebar activeTab={activeTab} setActiveTab={setActiveTab} />
 
       {/* Main Content */}
-      <div className="ml-64 p-8">
+      <div className="p-8 md:ml-64">
         {/* Header */}
         <div className="flex items-center justify-between mb-8">
           <div>
